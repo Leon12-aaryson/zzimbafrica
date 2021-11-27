@@ -1,0 +1,14 @@
+.prod{
+	margin-left: 20px;
+}
+figcaption{
+	font-size: 20px;
+	margin-top: 2px;
+}
+.prod img{
+	max-width: 300px;
+	max-height: 300px;
+}
+.prod div{
+	padding: 10px;
+}

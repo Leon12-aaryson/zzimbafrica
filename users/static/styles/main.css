@@ -1,0 +1,42 @@
+.prod{
+    text-decoration: none;
+	margin-left: 10px;
+}
+.prod p{
+    margin-bottom: 0;
+}
+figcaption {
+	font-size: 20px;
+	margin-top: 2px;
+}
+.prod img{
+	max-width: 300px;
+	max-height: 300px;
+}
+.prod div{
+	padding: 10px;
+}
+.container{
+    margin-left: 10px;
+}
+/* mobile view of the footer section on smaller devices*/
+@media screen and (max-width: 300px)
+{
+.dec{
+    width: 100%;
+}
+.container2 img{
+    margin-left: 0;
+    margin-right: 0;
+    height: auto;
+    width: 100%;
+}
+}
+@media screen and (max-width: 900px)
+{
+.container2 img{
+    margin-left: 0;
+    margin-right: 0;
+    height: auto;
+    width: 100%;
+}

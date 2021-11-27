@@ -1,1 +1,1 @@
-web: gunicorn zzimbafrica.wsgi
+web: gunicorn zzimba.wsgi

@@ -1,0 +1,33 @@
+logo
+home
+contacts
+login
+cart
+furniture
+kitchen
+support
+news&updates 
+products
+about 
+search 
+shop 
+IT services
+
+    .top {
+        background: url("static/images/piccomp.jpg") no-repeat;
+        height: 80vh;
+        background-size: cover;
+        margin-top: 5rem;
+        border-radius: 1rem 1rem 0 0;
+        color: white;
+    }
+
+    @media screen and (max-width: 576px){
+        .top {
+            background: url("static/images/piccomp.jpg") no-repeat;
+            height: 50vh;
+            background-size: cover;
+            margin-top: 4.5rem;
+            border-radius: 1rem 1rem 0 0;
+        }
+    }

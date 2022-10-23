@@ -1,0 +1,46 @@
+.products {
+    padding: 1rem;
+}
+
+.products .card {
+    min-width: 200px;
+    height: 300px;
+    margin-right: 1rem;
+}
+
+.products legend {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.card .card-img {
+    width: 100%;
+    height: 80%;
+}
+
+.card .text-muted {
+    padding: .5rem;
+}
+
+@media (min-width: 460px) and (max-width: 575) {
+    .products{
+        padding: 1rem;
+    }
+    .card-group{
+        padding: .5rem;
+    }
+   .products .card{
+    max-width: 230px;
+   }
+}
+@media (min-width: 576px) {
+    .products{
+        padding: 1rem;
+    }
+    .card-group{
+        padding: .5rem;
+    }
+   .products .card{
+    max-width: 230px;
+   }
+}

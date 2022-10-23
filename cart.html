@@ -13,61 +13,11 @@
     <link rel="stylesheet" href="static/css/index.css">
     <link rel="stylesheet" href="static/css/mediaqr.css">
     <link rel="stylesheet" href="static/css/main.css">
+    <link rel="stylesheet" href="static/css/cart.css">
 </head>
 <style>
-    .top {
-        background: linear-gradient(to right, rgba(110, 103, 103, .2)50%, rgba(110, 103, 103, .2)50%), url("static/images/piccomp.jpg") no-repeat;
-        height: 80vh;
-        background-size: cover;
-        margin-top: 5rem;
-        border-radius: 1rem 1rem 0 0;
-        color: white;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .top h2 {
-        font-size: 5rem;
-        text-align: left;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        padding-top: 2rem;
-    }
-
     footer {
         display: none;
-    }
-
-    @media (max-width: 350px) {
-        .top {
-            height: 60vh;
-        }
-        .top h2 {
-            padding-top: 1rem;
-            font-size: 2.2rem;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        }
-        .top button {
-            font-size: 1.2rem;
-        }
-    }
-
-    @media (max-width: 576px) {
-        .top {
-            height: 55vh;
-            margin-top: 5rem;
-            border-radius: 1rem 1rem 0 0;
-        }
-
-        .top h2 {
-            padding-top: 1rem;
-            font-size: 2.5rem;
-            text-align: left;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        }
-
-        .top button {
-            font-size: 1.2rem;
-        }
     }
 </style>
 
@@ -85,10 +35,10 @@
             <div id="my-nav" class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Support</a>
+                        <a class="nav-link" href="index.html" tabindex="-1" aria-disabled="true">Support</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
@@ -96,72 +46,76 @@
                     <li class="nav-item">
                         <a class="nav-link" href="register.html" tabindex="-1" aria-disabled="true"> Register</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="cart.html" tabindex="-1" aria-disabled="true"> <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></a>
-                    </li>
                 </ul>
             </div>
         </nav>
     </section>
-    <section class="top">
-        <div class="toptx container">
-            <h2>All your Household <br>In One <br> Place</h2>
-            <!-- <input type="button" name="" value="Get Started"> -->
-            <p class="toptxt">
-                Try Our website for the best offers available on the market
-            </p>
-            <p>To get started, sign up with us and book your slot!!</p>
-            <div class="register">
-                <a href="register.html">Register</a>
-            </div>
-            <!-- <a href="home.html"><button>Get Started <i class="fa fa-arrow-circle-right"
-                        aria-hidden="true"></i></button></a> -->
-        </div>
-    </section>
-    <section class="rest" style="margin-top: .51rem;">
-        <div class="market">
-            <legend> Some of the Services offered</legend>
+    <section class="rest" style="margin-top: 4rem;">
+        <div class="products">
+            <legend> Start Shopping</legend>
             <div class="card-group">
+                <legend>Furniture</legend>
                 <div class="card">
                     <img src="static/images/comp.jpg" alt="" class="card-img">
                     <div class="card-body">
-                        <h5 class="text-muted">Computer Services</h5>
-                        <p class="card-text">This will include software development and design, database management,
-                            graphics design, networking and hardware services</p>
+                        <h5 class="text-muted">Wooden doors</h5>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="static/images/shoes.jpg" alt="" class="card-img">
+                    <img src="static/images/comp.jpg" alt="" class="card-img">
                     <div class="card-body">
-                        <h5 class="text-muted">Online shopping</h5>
-                        <p class="card-text">As stated, we shall have a shopping platform for eceryon to buy and sell
-                            their goods
-                            within our website and all that will be in place with the various payment options that will
-                            be communicated
-                        </p>
+                        <h5 class="text-muted">Wooden doors</h5>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="static/images/funiture.jpg" alt="" class="card-img">
+                    <img src="static/images/comp.jpg" alt="" class="card-img">
                     <div class="card-body">
-                        <h5 class="text-muted">Furniture</h5>
-                        <p class="card-text">We have a great collection of furniture that we shall be offering to our
-                            customers at a great price.
-                            It is also to your advantage that you'll be able to meet our carpenters and get custom made
-                            furniture at affordable prices
-                        </p>
+                        <h5 class="text-muted">Wooden doors</h5>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="static/images/interior.jpg" alt="" class="card-img">
+                    <img src="static/images/comp.jpg" alt="" class="card-img">
                     <div class="card-body">
-                        <h5 class="text-muted">Interior Design Services</h5>
-                        <p class="card-text">Among th diverse services we have is interior design, we have interior
-                            designers who'll do the best work output for you
-                            and make you feel like never leaving your house. It is accompanied by the sale of
-                            contsruction hardware components and
-                            other building materials.
-                        </p>
+                        <h5 class="text-muted">Wooden doors</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="static/images/comp.jpg" alt="" class="card-img">
+                    <div class="card-body">
+                        <h5 class="text-muted">Wooden doors</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="card-group">
+                <legend>Furniture</legend>
+                <div class="card">
+                    <img src="static/images/comp.jpg" alt="" class="card-img">
+                    <div class="card-body">
+                        <h5 class="text-muted">Wooden doors</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="static/images/comp.jpg" alt="" class="card-img">
+                    <div class="card-body">
+                        <h5 class="text-muted">Wooden doors</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="static/images/comp.jpg" alt="" class="card-img">
+                    <div class="card-body">
+                        <h5 class="text-muted">Wooden doors</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="static/images/comp.jpg" alt="" class="card-img">
+                    <div class="card-body">
+                        <h5 class="text-muted">Wooden doors</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="static/images/comp.jpg" alt="" class="card-img">
+                    <div class="card-body">
+                        <h5 class="text-muted">Wooden doors</h5>
                     </div>
                 </div>
             </div>

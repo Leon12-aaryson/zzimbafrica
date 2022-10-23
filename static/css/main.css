@@ -83,7 +83,7 @@ legend {
 
 .services .card {
     list-style: disc;
-    margin: 1rem;
+    margin-right: 1rem;
     box-shadow: var(--card-shadow);
 }
 

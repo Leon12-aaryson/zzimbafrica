@@ -27,6 +27,49 @@ body {
     padding: 0 1rem;
 }
 
+.toptxt{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.register{
+    margin-top: 2rem;
+}
+.register a{
+    padding: 0.4rem;
+    border: 1px solid orangered;
+    color: white;
+    border-radius: var(--border-radius);
+    font-weight: 700;
+}
+
+/* .more{
+    background: linear-gradient(to right, rgba(110, 103, 103, .2)50%, rgba(110, 103, 103, .2)50%), url("static/images/piccomp.jpg") no-repeat;
+    #00C9FF ->#92FE9D
+    #2c3e50 ->#3498db
+    background: lin;
+} */
+.mrcontent{
+    color: white;
+    margin-bottom: 1rem;
+    background: linear-gradient(to bottom, #136a8a, #267871);
+    padding: 1rem;
+}
+
+.more .leg{
+    margin-top: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.more span{
+    font-size: 1rem;
+}
+
+.news legend{
+    text-align: left;
+    font-size: 1.2em;
+}
 .designed a {
     color: rgb(19, 36, 32);
 }
